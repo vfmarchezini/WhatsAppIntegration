@@ -9,8 +9,8 @@ const port = 3000;
 
 //Twilio variables
 
-const accountSid = "ACa4162759ec6b96aca4953a619122524c";
-const authToken = "4c01343c1ecc47c1666eb22e1bf19c76"
+const accountSid = "";
+const authToken = ""
 const client = require('twilio')(accountSid, authToken);
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
 
